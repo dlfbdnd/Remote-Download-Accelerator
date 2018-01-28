@@ -12,6 +12,7 @@ A NodeJS application that turns your computer/VPS into a download relay station.
 ### Getting started
 ```bash
 git clone https://github.com/dlfbdnd/Remote-Download-Accelerator.git
+cd Remote-Download-Accelerator
 unzip rmdl.zip
 cd rmdl
 sudo node index.js #Requires root if port is 80 by default
