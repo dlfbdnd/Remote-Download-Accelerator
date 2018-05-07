@@ -3,8 +3,8 @@ A NodeJS application that turns your computer/VPS into a download relay station.
 ### Requirements
 - youtube-dl
   - `sudo apt install youtube-dl`
-- you-get
-  - `pip3 install you-get`
+- ffmpeg
+  - `sudo apt install ffmpeg`
 - wget
   - `sudo apt install wget`
 - nodejs
