@@ -16,8 +16,7 @@ Tested OK on Fedora 28 and Ubuntu 18.04, should support other *Linux* distributi
   - `sudo apt install git`
 ### Getting started
 ```bash
-git clone https://github.com/dlfbdnd/Remote-Download-Accelerator.git
-cd Remote-Download-Accelerator
+wget https://github.com/dlfbdnd/Remote-Download-Accelerator/releases/download/0.7.18/rmdl-v0.7.18.zip
 unzip rmdl*.zip
 cd rmdl*/
 sudo node index.js
