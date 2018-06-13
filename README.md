@@ -10,6 +10,8 @@ Tested OK on Fedora 28 and Ubuntu 18.04, should support other *Linux* distributi
   - `sudo apt install wget`
 - nodejs
   - `sudo apt install nodejs`
+- git (optional)
+  - `sudo apt install git`
 ### Getting started
 ```bash
 git clone https://github.com/dlfbdnd/Remote-Download-Accelerator.git
