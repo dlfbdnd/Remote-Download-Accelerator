@@ -1,6 +1,7 @@
 # Remote-Download-Accelerator
-A NodeJS application that turns your computer/VPS into a download relay station. Supports http, https, ftp, YouTube, and Xiami using youtube-dl, you-get and wget.
-### Requirements
+A NodeJS application that turns your computer/VPS into a download relay station. Supports Direct (http(s), ftp) and YouTube (video) download.
+Tested OK on Fedora 28 and Ubuntu 18.04, should support other *Linux* distributions as well. 
+### Prerequisites
 - youtube-dl
   - `sudo apt install youtube-dl`
 - ffmpeg
@@ -13,9 +14,9 @@ A NodeJS application that turns your computer/VPS into a download relay station.
 ```bash
 git clone https://github.com/dlfbdnd/Remote-Download-Accelerator.git
 cd Remote-Download-Accelerator
-unzip rmdl.zip
+unzip rmdl*.zip
 mkdir -p /var/www/html/
-mv rmdl/ /var/www/html/
-cd /var/www/html/rmdl/
-sudo node index.js #Requires root if port is 80 by default
+mv rmdl*/ /var/www/html/
+cd /var/www/html/rmdl*/
+sudo node index.js
 ```
