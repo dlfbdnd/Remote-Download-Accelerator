@@ -15,8 +15,6 @@ Tested OK on Fedora 28 and Ubuntu 18.04, should support other *Linux* distributi
 git clone https://github.com/dlfbdnd/Remote-Download-Accelerator.git
 cd Remote-Download-Accelerator
 unzip rmdl*.zip
-mkdir -p /var/www/html/
-mv rmdl*/ /var/www/html/
-cd /var/www/html/rmdl*/
+cd rmdl*/
 sudo node index.js
 ```
