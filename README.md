@@ -10,6 +10,8 @@ Tested OK on Fedora 28 and Ubuntu 18.04, should support other *Linux* distributi
   - `sudo apt install wget`
 - nodejs
   - `sudo apt install nodejs`
+- unzip
+  - `sudo apt install unzip`
 - git (optional)
   - `sudo apt install git`
 ### Getting started
